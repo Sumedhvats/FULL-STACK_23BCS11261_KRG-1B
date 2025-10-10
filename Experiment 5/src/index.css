@@ -1,0 +1,93 @@
+/* Reset and body styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  text-align: center;
+}
+
+/* App title */
+.app h1 {
+  margin: 20px 0;
+  color: #333;
+}
+
+/* Card container */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Card styles */
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card p {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Role badge */
+.card .role {
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+/* Different colors for each type */
+.card.person .role {
+  background-color: #3b82f6; /* blue */
+}
+
+.card.student .role {
+  background-color: #10b981; /* green */
+}
+
+.card.teacher .role {
+  background-color: #f59e0b; /* orange */
+}
+/* Delete button inside card */
+.delete-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background-color: #ef4444; /* red-500 */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 9999px; /* pill shape */
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.delete-btn:hover {
+  background-color: #b91c1c; /* red-700 */
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+

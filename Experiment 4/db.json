@@ -1,0 +1,6 @@
+{
+  "books": [
+    { "id": 1, "title": "React Basics", "author": "Alice", "year": 2023 },
+    { "id": 2, "title": "JavaScript Advanced", "author": "Bob", "year": 2022 }
+  ]
+}
